@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# jrobertson.io - Portfolio
 
-## Getting Started
+This is my personal developer portfolio, built with **Next.js** and styled with **Tailwind CSS**. I host it on **Vercel**, which makes deployments fast and seamless. You can check it out live at [jrobertson.io](https://jrobertson.io).
 
-First, run the development server:
+I created this site to share my projects, my journey into software engineering, and a bit of my personality as I continue to grow in the field.
 
-```bash
+---
+
+## 🚀 Tech Stack
+
+- **Next.js** - my go-to React framework for building modern, fast sites  
+- **Tailwind CSS** - utility-first styling that lets me move quickly  
+- **Vercel** - deployment made simple  
+- **React Components** - reusable and dynamic building blocks  
+- **JavaScript/TypeScript** - depending on the section I am working on  
+
+---
+
+## ✨ What I Built
+
+I designed this portfolio to be clean, responsive, and easy to update. Some highlights:
+
+- Fully responsive design that looks good on any screen  
+- Smooth navigation thanks to Next.js routing  
+- A home for my projects, blog posts, and experiments  
+- SEO-friendly structure so I can rank for my name and work  
+- Auto-deployments via GitHub -> Vercel, so updates go live when I push to `main`  
+
+---
+
+## 📂 Running It Locally
+
+If you want to poke around:
+
+~~~bash
+git clone git@github.com:JMRobertson89/jrobertson-portfolio.git
+cd jrobertson-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+~~~
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Head over to `http://localhost:3000` to see it running.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Deployment
 
-## Learn More
+This portfolio is deployed on **Vercel**. Any changes pushed to the `main` branch are automatically built and deployed. Preview deployments are created for pull requests so I can review changes before merging.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 My Goals
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This site is not just a portfolio. It is a playground where I practice building, iterating, and experimenting. I wanted a central spot to:
 
-## Deploy on Vercel
+- Showcase projects I am proud of  
+- Share what I have been learning along the way  
+- Build a strong personal brand as I grow in software engineering  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📝 What I Learned
+
+Building this portfolio taught me more than I expected:
+
+- How to use **Next.js** effectively for both static and server-side rendering  
+- How much time **Tailwind** saves once you really get comfortable with it  
+- The power of **CI/CD** when every push to GitHub automatically deploys to Vercel   
+- That a personal site is never really finished. It keeps evolving as I grow  
+
+---
+
+## 📬 Get in Touch
+
+- **Website**: [jrobertson.io](https://jrobertson.io)  
+- **LinkedIn**: [linkedin.com/in/jmrobertson89](https://linkedin.com/in/jmrobertson89)  
+- **GitHub**: [github.com/JMRobertson89](https://github.com/JMRobertson89)
