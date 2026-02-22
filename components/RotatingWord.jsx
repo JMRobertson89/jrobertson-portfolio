@@ -7,6 +7,7 @@ const WORDS = [
   "Developer",
   "Problem Solver",
   "Innovator",
+  "Enthusiast"
 ];
 
 export default function RotatingWord({ interval = 2500 }) {

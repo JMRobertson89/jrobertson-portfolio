@@ -20,20 +20,20 @@ export default function InteriorHeader() {
 	return (
 		<header className="p-2 max-w-8xl mx-auto bg-neutral-200 text-[var(--primary-color)]">
 			<div className="mx-auto flex items-center justify-between px-4 py-3 md:py-4">
-				<Link href="/" className="text-[20px] tracking-[0.1em]">
+				<Link href="/home" className="text-[20px] tracking-[0.1em]">
 					JOSH.ROBERTSON
 				</Link>
 
 				{/* Desktop nav */}
 				<nav className="hidden gap-6 md:flex">
 					<a
-						href="#projects"
+						href="/home#projects"
 						className="hover:rounded px-3 py-1 hover:bg-blue-600/10"
 					>
 						Projects
 					</a>
 					<a
-						href="#contact"
+						href="/home#contact"
 						className="hover:rounded px-3 py-1 hover:bg-blue-600/10"
 					>
 						Contact
@@ -101,14 +101,14 @@ export default function InteriorHeader() {
 						}`}
 					>
 						<a
-							href="#projects"
+							href="/home#projects"
 							className="hover:rounded px-3 py-1 hover:bg-blue-600/10"
 							onClick={handleClose}
 						>
 							Projects
 						</a>
 						<a
-							href="#contact"
+							href="/home#contact"
 							className="hover:rounded px-3 py-1 hover:bg-blue-600/10"
 							onClick={handleClose}
 						>
