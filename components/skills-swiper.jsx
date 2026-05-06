@@ -30,7 +30,7 @@ function MarqueeRow({ items, reverse = false }) {
 
 export default function SkillsSwiper() {
 	const logos = [
-		{ src: '/images/tech/php.png', alt: 'PHP', w: 50 },
+		{ src: '/images/tech/php-logo.png', alt: 'PHP', w: 50 },
 		{ src: '/images/tech/wordpress.png', alt: 'Wordpress', w: 50 },
 		{ src: '/images/tech/javascript.png', alt: 'JavaScript', w: 50 },
 		{ src: '/images/tech/nextjs.png', alt: 'Next.js', w: 50 },
